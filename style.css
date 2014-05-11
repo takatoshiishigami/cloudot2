@@ -1,0 +1,246 @@
+/*
+ Theme Name:   Cloudot Theme 2
+ Theme URI:    http://example.com/cloudot-theme-2
+ Description:  Twentythirteen Child Theme
+ Author:       Ryosuke Goto
+ Author URI:   http://direcsio.jp
+ Template:     twentythirteen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentythirteen-child
+*/
+
+@import url("../twentythirteen/style.css");
+
+
+/* 
+ * リンクの色を一括で変える
+ */
+
+a {
+	/*color: #ca3c08;*/
+  color: #00B358;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #228653;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:active,
+a:hover,
+.entry-title a:hover
+ {
+	color: #36D986;
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.navigation a {
+	color: #41bec1;
+  font-style: normal;
+}
+
+.navigation a:hover {
+	color: #98F23D;
+	text-decoration: none;
+}
+
+.entry-meta a {
+	color: #41bec1;
+}
+
+.entry-meta a:hover {
+	color: #41bec1;
+}
+
+.widget a {
+	color: #41bec1;
+}
+
+.widget a:hover {
+	color: #98F23D;
+}
+
+.entry-content a,
+.comment-content a {
+	color: #41bec1;
+}
+
+.entry-content a:hover,
+.comment-content a:hover {
+	color: #98F23D;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	color: #fff;
+	font-style: normal;
+  font-weight: bold;
+}
+
+.nav-menu li a {
+  color: #fff;
+}
+
+.comment-author .fn,
+.comment-author .url,
+.comment-reply-link,
+.comment-reply-login {
+	color: #41bec1;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+.site-footer .widget a {
+	color: #fff;
+  text-decoration: underline;
+}
+
+
+h3.menu-toggle {
+  color: #fff;
+}
+
+
+/*
+ * Font 種類・大きさ設定
+ */
+
+body {
+  color: #4d4d4d;
+}
+
+.site-title {
+  font-size: 24px;
+  font-family:'Lucida Grande','Hiragino Kaku Gothic ProN' Meiryo, sans-serif;
+  padding-top: 15%;
+}
+
+.site-description {
+  font: normal normal 16px 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+#content {
+  padding-top: 0px;
+}
+
+.post, .updates {
+  padding: 30px 0;
+}
+
+.updates .entry-header {
+  margin-bottom: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: normal normal 16px 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+/*
+ * ナビゲーション、背景色の設定
+ */
+
+.comment-respond {
+  background-color: #f5f5f5;
+}
+
+.site-footer {
+  background-color: #40bd87;
+  color: #fff;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+.site-footer .sidebar-container {
+  background-color: #41bec1;
+}
+
+button, input, textarea,{
+  border: 1px solid #d4d4d4;
+}
+
+.site-header .search-field:focus,
+.site-footer .search-field {
+  border: 1px solid #245A7A;
+}
+
+.site-footer .widget,
+.site-footer .widget-title,
+.site-footer .widget-title a {
+  color: #fff;
+}
+
+.navbar {
+/*  background: #d2e8ef; */
+  background-color: #6c3c84;
+  box-shadow: 0px 2px 3px #dadada;
+}
+
+.navbar ul li a:hover {
+/*  background: #cfe7fa; */
+  background-color: #7c3e9b;
+}
+
+
+/*
+ *  Containerの変更
+ */
+.site-header .home-link, 
+.main-navigation,
+.site-footer .widget-area {
+  max-width: 800px;
+}
+
+.entry-header, .entry-content, .entry-summary, .entry-meta {
+  max-width: 700px;
+}
+
+
+/*
+ *  カスタム投稿タイプ設定
+ */
+
+.updates-wrap {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+h2.updates-title {
+  font-size: 13px;
+  color: #fff;
+}
+
+ul.updates-content li a {
+  font-size: 12px;
+}
+
+ul.updates-content {
+  background-color: #f5f5f5;
+  margin-top: 0;
+  padding: 2px 35px 3px 35px;
+}
+
+h2.updates-title {
+  background-color:#9ec7de;
+  padding: 3px 20px;
+  margin-bottom: 0;
+}
+
